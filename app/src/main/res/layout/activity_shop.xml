@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.akitektuo.historyofweapons.activity.ShopActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar"
+        android:background="@drawable/grey_to_white"
+        android:padding="@dimen/space_standard">
+
+        <Button
+            android:id="@+id/button_back_shop"
+            android:layout_width="@dimen/button_dimen"
+            android:layout_height="@dimen/button_dimen"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_00" />
+
+        <TextView
+            android:id="@+id/text_shop_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/shop"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/text_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balance"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/question_text"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/button_chip"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button_chip"
+            android:layout_width="@dimen/button_dimen"
+            android:layout_height="@dimen/button_dimen"
+            android:layout_centerVertical="true"
+            android:background="@drawable/chip_01"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight">
+
+            <LinearLayout
+                android:id="@+id/layout_shop_skip"
+                android:layout_weight="0.5"
+                android:layout_margin="@dimen/space_standard"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/skip_01"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/price_text"
+                        android:text="@string/price_skip"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/price_chip"
+                        android:layout_height="@dimen/price_chip"
+                        android:background="@drawable/chip_01"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_shop_count_skip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="@dimen/space_standard"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_shop_hint"
+                android:layout_weight="0.5"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/space_standard"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/hint_02"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/price_text"
+                        android:text="@string/price_hint"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/price_chip"
+                        android:layout_height="@dimen/price_chip"
+                        android:background="@drawable/chip_01"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_shop_count_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight">
+
+            <LinearLayout
+                android:id="@+id/layout_shop_exclude"
+                android:layout_weight="0.5"
+                android:layout_margin="@dimen/space_standard"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/exclude_01"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/price_text"
+                        android:text="@string/price_exclude"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/price_chip"
+                        android:layout_height="@dimen/price_chip"
+                        android:background="@drawable/chip_01"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_shop_count_exclude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_shop_show"
+                android:layout_weight="0.5"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/space_standard"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/show_01"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/price_text"
+                        android:text="@string/price_show"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/price_chip"
+                        android:layout_height="@dimen/price_chip"
+                        android:background="@drawable/chip_01"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_shop_count_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

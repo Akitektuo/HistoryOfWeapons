@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="filter">
+        <item>Arme</item>
+        <item>Bombe</item>
+        <item>Tancuri</item>
+        <item>Nave</item>
+        <item>Avione</item>
+    </array>
+</resources>

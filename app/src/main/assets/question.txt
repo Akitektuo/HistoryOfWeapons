@@ -1,0 +1,347 @@
+﻿When was the AK-47 used?
+__;__
+De cand a fost folosita arma AK-47?
+__;__
+1918_;_1939_;_1949_;_1989
+__;__
+1918_;_1939_;_1949_;_1989
+__;__
+2
+__;__
+ak_47
+___;___
+Who developed the AK-47?
+__;__
+Cine a creat arma AK-47?
+__;__
+Eugene Morrison Stoner_;_Hugo Schmeisser_;_Mikhail Kalashnikov_;_Leroy James Sullivan
+__;__
+Eugene Morrison Stoner_;_Hugo Schmeisser_;_Mihail Kalasnikov_;_Leroy James Sullivan
+__;__
+2
+__;__
+ak_47
+___;___
+What's the origin of AK-47?
+__;__
+Care este originea armei AK-47?
+__;__
+Korea_;_Germany_;_United States_;_Soviet Union
+__;__
+Coreea_;_Germania_;_Statele Unite_;_Uniunea Sovietica
+__;__
+3
+__;__
+ak_47
+___;___
+How many firearms belong to the Kalashnikov family?
+__;__
+Cate arme de foc apartin familiei Kalashnikov?
+__;__
+50 million_;_70 million_;_75 million_;_100 million
+__;__
+50 milioane_;_70 milioane_;_75 milioane_;_100 milioane
+__;__
+3
+__;__
+ak_47
+___;___
+What was the main advantage of the firearm AK-47?
+__;__
+Care este principiul avantaj al armei de foc AK-47?
+__;__
+Reliability under harsh conditions_;_Magazine capacity_;_Accuracy_;_Rate of fire
+__;__
+Rezistenta la conditii dure_;_Capacitatea magaziei_;_Precizia_;_Cadenta de tragere
+__;__
+0
+__;__
+ak_47
+___;___
+What's the origin of M16?
+__;__
+Care este originea armei M16?
+__;__
+Korea_;_Germany_;_United States_;_Soviet Union
+__;__
+Coreea_;_Germania_;_Statele Unite_;_Uniunea Sovietica
+__;__
+2
+__;__
+m16
+___;___
+When was the M16 used?
+__;__
+Cand a fost folosita arma M16?
+__;__
+1964_;_1969_;_1983_;_1986
+__;__
+1964_;_1969_;_1983_;_1986
+__;__
+1
+__;__
+m16
+___;___
+When was the M16 replaced with the M4 carbine?
+__;__
+Cand a fost inlocuita arma M16 de carabina M4?
+__;__
+1984_;_1993_;_2000_;_2010
+__;__
+1984_;_1993_;_2000_;_2010
+__;__
+3
+__;__
+m16
+___;___
+How many versions does the M16 have?
+__;__
+Cate versiuni are arma M16?
+__;__
+One_;_Two_;_Three_;_Four
+__;__
+Una_;_Doua_;_Trei_;_Patru
+__;__
+3
+__;__
+m16
+___;___
+How many firearms M16 were produced?
+__;__
+Cate arme M16 au fost produse?
+__;__
+5 million_;_8 million_;_10 million_;_20 million
+__;__
+5 milioane_;_8 milioane_;_10 milioane_;_20 milioane
+__;__
+1
+__;__
+m16
+___;___
+Which weapon did the M16 replace?
+__;__
+Ce arma a inlocuit mitraliera M16?
+__;__
+M14_;_M15_;_M21_;_M39
+__;__
+M14_;_M15_;_M21_;_M39
+__;__
+0
+__;__
+m16
+___;___
+Where was the atomic bomb Little Boy used?
+__;__
+Unde a fost folosita bomba Little Boy?
+__;__
+Germany_;_Great Britain_;_Japan_;_Russia
+__;__
+Germania_;_Marea Britanie_;_Japonia_;_Rusia
+__;__
+2
+__;__
+little_boy
+___;___
+Which city was affected by Little Boy?
+__;__
+Care oras a fost afectat de Little Boy?
+__;__
+Hiroshima_;_Nagasaki_;_Tokyo_;_Toyama
+__;__
+Hiroshima_;_Nagasaki_;_Tokyo_;_Toyama
+__;__
+0
+__;__
+little_boy
+___;___
+When was the bomb Little Boy detonated?
+__;__
+Cand a fost detonata bomba Little Boy?
+__;__
+6 August 1939_;_9 August 1939_;_6 August 1945_;_9 August 1945
+__;__
+6 August 1939_;_9 August 1939_;_6 August 1945_;_9 August 1945
+__;__
+2
+__;__
+little_boy
+___;___
+Who made Little Boy?
+__;__
+Cine a conceput Little Boy?
+__;__
+Korea_;_Germany_;_United States_;_Soviet Union
+__;__
+Coreea_;_Germania_;_Statele Unite_;_Uniunea Sovietica
+__;__
+2
+__;__
+little_boy
+___;___
+How many Little Boy bombs were built?
+__;__
+Cate bombe Little Boy au fost construite?
+__;__
+1_;_4_;_16_;_36
+__;__
+1_;_4_;_16_;_36
+__;__
+3
+__;__
+little_boy
+___;___
+How much does the uranium from Little Boy weight?
+__;__
+Cat cantareste uraniumul din Little Boy?
+__;__
+48 kilograms_;_64 kilograms_;_96 kilograms_;_124 kilograms
+__;__
+48 kilograme_;_64 kilograme_;_96 kilograme_;_124 kilograme
+__;__
+1
+__;__
+little_boy
+___;___
+Where was the atomic bomb Fat Man used?
+__;__
+Unde a fost folosita bomba Fat Man?
+__;__
+Germany_;_Great Britain_;_Japan_;_Russia
+__;__
+Germania_;_Marea Britanie_;_Japonia_;_Rusia
+__;__
+2
+__;__
+fat_man
+___;___
+Which city was affected by Fat Man?
+__;__
+Care oras a fost afectat de Fat Man?
+__;__
+Hiroshima_;_Nagasaki_;_Tokyo_;_Toyama
+__;__
+Hiroshima_;_Nagasaki_;_Tokyo_;_Toyama
+__;__
+1
+__;__
+fat_man
+___;___
+When was the bomb Fat Man detonated?
+__;__
+Cand a fost detonata bomba Fat Man?
+__;__
+6 August 1939_;_9 August 1939_;_6 August 1945_;_9 August 1945
+__;__
+6 August 1939_;_9 August 1939_;_6 August 1945_;_9 August 1945
+__;__
+3
+__;__
+fat_man
+___;___
+Who made Fat Man?
+__;__
+Cine a conceput Fat Man?
+__;__
+Korea_;_Germany_;_United States_;_Soviet Union
+__;__
+Coreea_;_Germania_;_Statele Unite_;_Uniunea Sovietica
+__;__
+2
+__;__
+fat_man
+___;___
+How many Fat Man bombs were built?
+__;__
+Cate bombe Fat Man au fost construite?
+__;__
+60_;_80_;_100_;_120
+__;__
+60_;_80_;_100_;_120
+__;__
+3
+__;__
+fat_man
+___;___
+Which is the other name for Fat Man?
+__;__
+Care este o alta denumire pentru Fat Man?
+__;__
+Mark I_;_Mark II_;_Mark III_;_Mark IV
+__;__
+Marca I_;_Marca a II-a_;_Marca a III-a_;_Marca a IV-a
+__;__
+2
+__;__
+fat_man
+___;___
+Where was the atomic bomb Tsar Bomba used?
+__;__
+Unde a fost folosita bomba Tsar Bomba?
+__;__
+Germany_;_Great Britain_;_United States_;_Russia
+__;__
+Germania_;_Marea Britanie_;_Statele Unite_;_Rusia
+__;__
+3
+__;__
+tsar_bomba
+___;___
+Which is the other name for Tsar Bomba?
+__;__
+Care este o alta denumire pentru Tsar Bomba?
+__;__
+Dimitri_;_Ivan_;_Markov_;_Ruslan
+__;__
+Dimitri_;_Ivan_;_Markov_;_Ruslan
+__;__
+1
+__;__
+tsar_bomba
+___;___
+When was the bomb Tsar Bomba detonated?
+__;__
+Cand a fost detonata bomba Tsar Bomba?
+__;__
+1954_;_1956_;_1959_;_1961
+__;__
+1954_;_1956_;_1959_;_1961
+__;__
+3
+__;__
+tsar_bomba
+___;___
+How many Tsar Bomba bombs were built?
+__;__
+Cate bombe Tsar Bomba au fost construite?
+__;__
+1_;_15_;_30_;_60
+__;__
+1_;_15_;_30_;_60
+__;__
+0
+__;__
+tsar_bomba
+___;___
+How powerful was the bomb Tsar Bomba?
+__;__
+Cat de puternica era bomba Tsar Bomba?
+__;__
+Approximately 25 megatons of TNT_;_Approximately 50 megatons of TNT_;_Approximately 75 megatons of TNT_;_Approximately 100 megatons of TNT
+__;__
+Aproximativ 25 megatone de TNT_;_Aproximativ 50 megatone de TNT_;_Aproximativ 75 megatone de TNT_;_Aproximativ 100 megatone de TNT
+__;__
+1
+__;__
+tsar_bomba
+___;___
+What was the scope of the bomb Tsar Bomba?
+__;__
+Care era scopul bombei Tsar Bomba?
+__;__
+Destroying the supplies of a country_;_Making an enemy vulnerable_;_Showing the power of Russia_;_Taking out a military base
+__;__
+Distrugerea resurselor a unei tari_;_Asigurarea vulnerabilitatii a unui inamic_;_Aratarea fortei armatei Ruse_;_Desfintarea unei baze militare
+__;__
+2
+__;__
+tsar_bomba

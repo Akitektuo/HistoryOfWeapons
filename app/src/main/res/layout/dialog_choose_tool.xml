@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="64dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/grey_to_white" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/select_tool"-->
+    <!--android:textColor="@color/colorAccent"-->
+    <!--android:textSize="25sp"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_centerVertical="true"/>-->
+
+    <!--</RelativeLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight">
+
+            <LinearLayout
+                android:id="@+id/layout_dialog_skip"
+                android:layout_weight="0.5"
+                android:layout_margin="@dimen/space_standard"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/skip_01"/>
+
+                <TextView
+                    android:id="@+id/text_dialog_count_skip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_margin="@dimen/space_standard"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_dialog_hint"
+                android:layout_weight="0.5"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/space_standard"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/hint_02"/>
+
+                <TextView
+                    android:id="@+id/text_dialog_count_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight">
+
+            <LinearLayout
+                android:id="@+id/layout_dialog_exclude"
+                android:layout_weight="0.5"
+                android:layout_margin="@dimen/space_standard"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/exclude_01"/>
+
+                <TextView
+                    android:id="@+id/text_dialog_count_exclude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_dialog_show"
+                android:layout_weight="0.5"
+                android:layout_width="@dimen/weight"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/space_standard"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@drawable/show_01"/>
+
+                <TextView
+                    android:id="@+id/text_dialog_count_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/space_standard"
+                    android:textColor="@color/white"
+                    android:background="@drawable/tools_number"
+                    android:text="@string/count_tools"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_dialog_selected_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/select_tool"/>
+
+</LinearLayout>

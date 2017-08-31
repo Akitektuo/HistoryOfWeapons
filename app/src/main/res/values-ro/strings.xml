@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Istoria Armelor</string>
+    <string name="buy">Continuare</string>
+    <string name="bombs">" bombe,"</string>
+    <string name="buy_exclude">Achitare unealta Eliminator?</string>
+    <string name="buy_hint">Achitare unealta Indiciu?</string>
+    <string name="buy_show">Achitare unealta Aratator?</string>
+    <string name="buy_skip">Achitare unealta Trecator?</string>
+    <string name="cancel">Anulare</string>
+    <string name="contact">Ne puteti contacta la adresa: akitektuo@yahoo.com</string>
+    <string name="english">Engleza</string>
+    <string name="exclude_selected">Eliminator selectat</string>
+    <string name="filter">Filtreaza</string>
+    <string name="guns">" arme,"</string>
+    <string name="hint_selected">Indiciu selectat</string>
+    <string name="history_of_weapons">Istoria Armelor</string>
+    <string name="history">Istorie</string>
+    <string name="language">Limba</string>
+    <string name="loading">Se incarca...</string>
+    <string name="navy">" nave,"</string>
+    <string name="not_enough_chips">Nu sunt destule jetoane</string>
+    <string name="not_tools">Nu sunt destule unelte</string>
+    <string name="planes">" avioane,"</string>
+    <string name="quiz">Intrebari</string>
+    <string name="romanian">Romana</string>
+    <string name="select_language">Alegeti limba!</string>
+    <string name="select_language_message">Aceasta setare se poate modifica mai tarziu.</string>
+    <string name="select_tool">Alege o unealta</string>
+    <string name="selected_nothing">Nimic nu a fost selectat.</string>
+    <string name="shop">Magazin</string>
+    <string name="show_selected">Aratator selectat</string>
+    <string name="skip_selected">Trecator selectat</string>
+    <string name="tanks">" tancuri,"</string>
+    <string name="title_filter">Ce sa se afiseze?</string>
+    <string name="tool_not_selected">Arma neselectata</string>
+    <string name="updating_info">Updatare informatii</string>
+    <string name="use">Foloseste</string>
+    <string name="you_selected">A fost selectat:</string>
+    <string name="updating_database">Updatare baza de date&#8230;</string>
+</resources>

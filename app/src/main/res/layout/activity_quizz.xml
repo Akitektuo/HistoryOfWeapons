@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blur"
+    tools:context=".activity.QuizActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar"
+        android:background="@drawable/grey_to_white"
+        android:padding="@dimen/space_standard">
+
+        <Button
+            android:id="@+id/button_back_quiz"
+            android:layout_width="@dimen/button_dimen"
+            android:layout_height="@dimen/button_dimen"
+            android:layout_centerVertical="true"
+            android:background="@drawable/back_00" />
+
+        <TextView
+            android:id="@+id/text_quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/quiz"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/button_tools_quiz"
+            android:layout_width="@dimen/button_dimen"
+            android:layout_height="@dimen/button_dimen"
+            android:layout_centerVertical="true"
+            android:background="@drawable/tools_00"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_quiz_variants"
+        android:layout_marginTop="@dimen/action_bar"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_standard"
+        android:paddingLeft="@dimen/space_standard"
+        android:paddingRight="@dimen/space_standard"
+        android:paddingTop="@dimen/space_standard">
+
+        <ImageView
+            android:id="@+id/image_weapon_quiz"
+            android:layout_width="@dimen/width_16_9"
+            android:layout_height="@dimen/height_16_9"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/background_temp_50" />
+
+        <TextView
+            android:id="@+id/text_question_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/space_standard"
+            android:gravity="center"
+            android:textSize="@dimen/question_text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_quiz_variants"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="@dimen/space_variants">
+
+        <Button
+            android:id="@+id/button_variant_a"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight"
+            android:layout_weight="0.25"
+            android:background="@drawable/variant"
+            android:text="@string/variant_a"
+            android:textAllCaps="false"
+            android:textColor="@color/variant_text"
+            android:textSize="@dimen/variants_text" />
+
+        <Button
+            android:id="@+id/button_variant_b"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight"
+            android:layout_marginTop="@dimen/space_variants"
+            android:layout_weight="0.25"
+            android:background="@drawable/variant"
+            android:text="@string/variant_b"
+            android:textAllCaps="false"
+            android:textColor="@color/variant_text"
+            android:textSize="@dimen/variants_text" />
+
+        <Button
+            android:id="@+id/button_variant_c"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight"
+            android:layout_marginTop="@dimen/space_variants"
+            android:layout_weight="0.25"
+            android:background="@drawable/variant"
+            android:text="@string/variant_c"
+            android:textAllCaps="false"
+            android:textColor="@color/variant_text"
+            android:textSize="@dimen/variants_text" />
+
+        <Button
+            android:id="@+id/button_variant_d"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weight"
+            android:layout_marginTop="@dimen/space_variants"
+            android:layout_weight="0.25"
+            android:background="@drawable/variant"
+            android:text="@string/variant_d"
+            android:textAllCaps="false"
+            android:textColor="@color/variant_text"
+            android:textSize="@dimen/variants_text" />
+
+    </LinearLayout>
+
+</RelativeLayout>
