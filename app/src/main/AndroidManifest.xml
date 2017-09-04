@@ -31,7 +31,11 @@
         <activity
             android:name=".activity.ShopActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".activity.HistoryDetailActivity"/>
+        <activity android:name=".activity.HistoryDetailActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LightTheme"/>
     </application>
 
 </manifest>

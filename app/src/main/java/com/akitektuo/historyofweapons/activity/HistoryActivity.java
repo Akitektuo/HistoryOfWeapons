@@ -47,7 +47,7 @@ public class HistoryActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_histrory);
         findViewById(R.id.button_back_history).setOnClickListener(this);
         findViewById(R.id.button_filter).setOnClickListener(this);
-        listHistory = (ListView) findViewById(R.id.list_history_item);
+        listHistory = findViewById(R.id.list_history_item);
         database = new DatabaseHelper(this);
         buildList();
         listHistory.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -97,7 +97,7 @@ public class HistoryActivity extends Activity implements View.OnClickListener {
                         for (int j = 0; j < items; j++) {
                             Cursor cursor = database.getWeaponForId(database.getReadableDatabase(), id.get(j));
                             if (cursor.moveToFirst()) {
-                                Drawable drawable = getDrawable(getResources().getIdentifier(cursor.getString(1), "drawable", getPackageName()));
+                                Drawable drawable = getResources().getDrawable(getResources().getIdentifier(cursor.getString(1), "drawable", getPackageName()));
                                 historyItems[j] = new HistoryItem(drawable, cursor.getString(4), cursor.getInt(5));
                             }
                         }
@@ -115,7 +115,7 @@ public class HistoryActivity extends Activity implements View.OnClickListener {
         if (cursor.moveToFirst()) {
             int i = 0;
             do {
-                Drawable drawable = getDrawable(getResources().getIdentifier(cursor.getString(1), "drawable", getPackageName()));
+                Drawable drawable = getResources().getDrawable(getResources().getIdentifier(cursor.getString(1), "drawable", getPackageName()));
                 historyItems[i] = new HistoryItem(drawable, cursor.getString(4), cursor.getInt(5));
                 i++;
             } while (cursor.moveToNext());
