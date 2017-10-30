@@ -65,7 +65,6 @@
                 android:id="@+id/text_detail_lecture"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/test_long_text"
                 android:textSize="@dimen/variants_text"
                 android:textColor="@color/colorAccent"/>
 
